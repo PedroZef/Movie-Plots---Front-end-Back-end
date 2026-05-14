@@ -1,0 +1,26 @@
+{
+    "name": "movie_plots_backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node --watch server.js"
+    },
+    "keywords": [],
+    "author": "Pedro Zeferino",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.6",
+        "dotenv": "^16.6.1",
+        "express": "^4.22.2"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.39.4",
+        "@types/express": "^5.0.6",
+        "eslint": "^9.39.4",
+        "eslint-plugin-react": "^7.37.2",
+        "globals": "^15.11.0"
+    }
+}

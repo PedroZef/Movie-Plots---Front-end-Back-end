@@ -1,0 +1,5 @@
+{
+    "powerquery.client.additionalSymbolsDirectories": [
+        "c:/Users/zefpe/ProjectVsCode/movie_plots_frontend/.vscode/excel-pq-symbols"
+    ]
+}
