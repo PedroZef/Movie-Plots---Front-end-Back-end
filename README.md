@@ -74,6 +74,15 @@ O backend fornece a API e os dados necessários para o frontend.
 2. Como o frontend é composto por arquivos estáticos (HTML, CSS, JS), você pode utilizar uma extensão como o **Live Server** no VSCode.
    - Abra o arquivo `index.html` no VSCode.
    - Clique com o botão direito e selecione **"Open with Live Server"**.
+
+   - ```bash
+
+   # npx serve
+
+   ```
+   
+    O Frontend estará rodando em `http://localhost:3000`.
+
    - O projeto abrirá no seu navegador, consumindo a API local do backend que está rodando na porta 4000.
 
 ---
