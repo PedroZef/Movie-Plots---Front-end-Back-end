@@ -77,11 +77,11 @@ O backend fornece a API e os dados necessários para o frontend.
 
    - ```bash
 
-   # npx serve
+   npx serve .
 
    ```
    
-    O Frontend estará rodando em `http://localhost:3000`.
+   - O Frontend estará rodando em `http://localhost:3000`.
 
    - O projeto abrirá no seu navegador, consumindo a API local do backend que está rodando na porta 4000.
 
@@ -122,10 +122,8 @@ Contribuições são extremamente bem-vindas e incentivadas! Se você tem uma id
 ### 💡 Ideias para Melhorias Futuras
 
 - Adicionar um sistema de paginação para carregar mais filmes.
-- Implementar filtros na interface (por gênero, ano de lançamento, nota).
 - Adicionar um botão de "Dark Mode" (Modo Escuro).
 - Exibir os trailers dos filmes quando o usuário clicar no card.
-- Componentizar o frontend utilizando um framework como React ou Vue.js.
 
 ---
 

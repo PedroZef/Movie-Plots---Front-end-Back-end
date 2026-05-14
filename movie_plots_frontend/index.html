@@ -12,12 +12,24 @@
     </head>
     <body>
         <header>
+            <button id="theme-toggle" class="theme-toggle-btn">
+                ☀️ Modo Claro
+            </button>
             <h1>Movie Plots</h1>
             <p>Explore as sinopses dos seus filmes favoritos</p>
         </header>
 
         <main>
             <section class="carousel-container">
+                <div class="button-container">
+                    <button
+                        id="load-more"
+                        class="load-more-btn"
+                        style="display: none"
+                    >
+                        Carregar Mais Filmes
+                    </button>
+                </div>
                 <div class="carousel" id="carousel">
                     <!-- Os cards dos filmes serão renderizados aqui via JavaScript -->
                     <div class="loading" id="loading">Carregando filmes...</div>
@@ -26,8 +38,8 @@
         </main>
         <footer class="footer">
             <p>
-                &copy; 2026 Movie Plots Frontend - Pedro Zeferino da Silva. Todos os
-                direitos reservados.
+                &copy; 2026 Movie Plots Frontend - Pedro Zeferino da Silva.
+                Todos os direitos reservados.
             </p>
         </footer>
 

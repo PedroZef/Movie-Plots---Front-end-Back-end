@@ -88,6 +88,7 @@ main {
     text-align: center;
     overflow: hidden;
     scroll-snap-align: center;
+    cursor: pointer;
 }
 
 .card:hover {
@@ -169,6 +170,35 @@ main {
     box-shadow: 0 -5px 15px rgba(111, 72, 218, 0.5);
 }
 
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.load-more-btn {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.load-more-btn:hover {
+    background-color: #c40812;
+    transform: scale(1.05);
+}
+
+.load-more-btn:active {
+    transform: scale(0.95);
+}
+
 @media (max-width: 768px) {
     .card {
         width: 85vw;
@@ -178,4 +208,65 @@ main {
     .card-image {
         max-height: 300px;
     }
+}
+
+/* Theme Toggle Button */
+.theme-toggle-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+.theme-toggle-btn:hover {
+    filter: brightness(1.2);
+}
+
+/* Light Mode Overrides */
+body.light-mode {
+    --bg-color: #f0f0f0;
+    --text-color: #333333;
+    --card-bg: #ffffff;
+    --card-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode header {
+    background: linear-gradient(to bottom, #d0d0d0, transparent);
+}
+
+body.light-mode header p {
+    color: #555555;
+}
+
+body.light-mode .card h2 {
+    color: #222222;
+    border-bottom-color: var(--accent-color);
+}
+
+body.light-mode .plot-label {
+    color: #666666;
+}
+
+body.light-mode .plot-text {
+    color: #444444;
+}
+
+body.light-mode .loading {
+    color: #555555;
+}
+
+body.light-mode .footer, 
+body.light-mode .footer p {
+    background-color: #dddddd;
+    color: #333333;
 }
