@@ -11,7 +11,7 @@ Siga as instruções abaixo para configurar o projeto na sua máquina local para
 Antes de começar, você precisará ter instalado em sua máquina:
 
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/) (versão 14 ou superior)
+- [Node.js](https://nodejs.org/) (versão 18 ou superior)
 - [NPM](https://www.npmjs.com/) (normalmente já vem com o Node.js)
 
 ### 🔧 Instalação e Execução
@@ -80,7 +80,7 @@ O backend fornece a API e os dados necessários para o frontend.
    npx serve .
 
    ```
-   
+
    - O Frontend estará rodando em `http://localhost:3000`.
 
    - O projeto abrirá no seu navegador, consumindo a API local do backend que está rodando na porta 4000.
@@ -89,8 +89,11 @@ O backend fornece a API e os dados necessários para o frontend.
 
 ## 🛠️ Tecnologias Utilizadas
 
+## 🔗 Links Úteis
+
 - **Frontend:** HTML5, CSS3 (Responsivo com CSS Grid/Flexbox), JavaScript (Vanilla)
 - **Backend:** Node.js, Express
+- **API:** [http://www.omdbapi.com/](http://www.omdbapi.com/)
 
 ---
 
